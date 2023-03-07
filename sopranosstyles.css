@@ -1,0 +1,125 @@
+body {
+	background-image: url("images/background1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+nav {
+	font-size: 18px;
+	font-family: cursive;
+	color: black;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.menu {
+	margin: right 50px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	gap: 70px;
+}
+
+.menu a {
+	color: black;
+	text-decoration: none;
+	padding: 8px;
+}
+
+.menu a:hover {
+	border-bottom: 2px outset black;
+}
+
+h2 {
+	font-family: monospace;
+	font-size: 50px;
+	font-weight: bolder;
+	text-shadow: 6px 3px 4px darkred;
+	text-align: left;
+}
+
+.container-header {
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+
+.logo {
+	width: 80px;
+	padding: 5px;
+}
+
+/*Characters ccs*/
+
+
+
+.contain-characters{
+	display: flex;
+	justify-content: flex-start;
+	gap: 20px;
+	flex-wrap: wrap;
+	padding: 25px;
+	
+}
+
+.card-character{
+	background-color: white;
+	width: 400px;
+	height: 200px;
+	border-radius: 8px;
+	display: flex;
+}
+.contain-image{
+	width: 40%;
+	height: 100%;
+}
+.image{
+	width: 100%;
+	height: 100%;
+}
+.contain-characterInfo{
+	width: 60%;
+	height: 100%;	
+}
+.characterName{
+	font-size: 18px;
+	font-family: monospace;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background-color: brown;
+	color: white;
+	font-weight: 700;
+	align-items: center;
+	width: 100%;
+	height:30%
+}
+.characterDescription{
+	width: 100%;
+	height: 70%;
+	font-family:Helvetica;
+	padding: 10px;
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;	
+}
+.characterDescription p {
+	
+	margin: 0;
+}
+
+.socialMedia{
+	margin-top: 120px;
+	display: flex;
+	justify-content: center;
+	gap: 50px;		
+}
+.item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
